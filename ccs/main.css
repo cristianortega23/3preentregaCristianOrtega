@@ -244,15 +244,22 @@ header nav ul li:hover {
 }
 
 #botonComprar {
-  background-color: #28a745; /* Verde vibrante */
-  color: white; /* Texto blanco */
-  font-size: 1rem; /* Tamaño de letra */
-  font-weight: bold; /* Negrita */
-  border: none; /* Sin bordes */
-  padding: 10px 20px; /* Espaciado interno */
-  border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* Cursor de mano */
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Animaciones suaves */
+  background-color: #28a745; 
+  color: white; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+.conteinerc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  padding: 20px 40px;
 }
 
 #botonComprar:hover {
@@ -275,9 +282,9 @@ header nav ul li:hover {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  color: #dc6e2a;
+  color: #362114;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 10px;
 }
 
 footer {
